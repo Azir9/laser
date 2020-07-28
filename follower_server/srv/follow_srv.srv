@@ -1,0 +1,7 @@
+string follow
+
+float32 kinect_position_x
+float32 kinect_position_y
+---
+float32[] laser_track_vel
+float32[] people_posion

@@ -1,0 +1,17 @@
+<launch>
+  <!-- yel-->
+  <node pkg="follower_server" type="follow_node" name="follower_server_node" output="screen">
+    <!--param name="speakwords" type="str" value="Hi Robot"/-->
+    <param name="min_first"  value="0.4"/>
+    <param name="max_first"  value="3.0"/>
+    <param name="keep_dist"  value="0.8"/>
+    <param name="max_angular_vel"  value="1.5"/>
+    <param name="max_linear_vel"  value="0.5"/>
+    <param name="max_cluster_dis"  value="0.1"/>
+    <param name="min_cluster_num"  value="3"/>
+    <param name="cluster_min_max_dis"  value="0.3"/>
+  </node>
+
+  <!--node pkg="rviz" type="rviz" name="rviz" output="screen">
+  </node-->
+</launch>
